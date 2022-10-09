@@ -8,8 +8,8 @@ This music bot holds `AudioTrack` (A class provided by LavaPlayer) inside an arr
 
 ## Key Features:
 - Uses new features from discord, such as slash commands and interactable buttons
-- Shows a panel with the currently playing song, buttons to interact with, and current songs inside the queue when execting any command. [Picture of embed](/discord_bot_embed.png)
-- Bunch of commands available for interacting with the player [Picture of available commands](/available_commands.png) [Commands showcase](/command_showcase.png)
+- Shows a panel with the currently playing song, buttons to interact with, and current songs inside the queue when execting any command. [Picture of embed](/imgs/discord_bot_embed.png)
+- Bunch of commands available for interacting with the player [Picture of available commands](/imgs/available_commands.png) [Commands showcase](/imgs/command_showcase.png)
    - /add [query]- Takes the query paramater from the user, and uses the LavaPlayer library to search youtube for a match (returning a list of audio tracks matching that query), and adds the first match in that list. This new audio track is added to a queue.
    - /remove - Removes a song from the spesified song position (song position = song index + 1)
    - /queue - Displays the interactive panel.
